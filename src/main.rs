@@ -18,4 +18,11 @@ fn main()
     let b_cubed = f64::powi(b, 3);
     let b_to_pi = f64::powf(b, std::f64::consts::PI);
     println!("{} cubed = {}, {}^pi = {}", b, b_cubed, b, b_to_pi);
+
+    // bitwise
+    let c = 1 | 2; // | OR, & AND, ^ XOR, ! NOR
+                   // 01 OR 10 = 11 == 3_10
+    println!("1|2 = {}", c);
+    let two_to_10 = 1 << 10; // >>
+    println!("2^10 = {}", two_to_10/)
 }
