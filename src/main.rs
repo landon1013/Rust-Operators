@@ -25,4 +25,12 @@ fn main()
     println!("1|2 = {}", c);
     let two_to_10 = 1 << 10; // >>
     println!("2^10 = {}", two_to_10);
+
+    // logical
+    let pi_less_4 = std::f64::consts::PI < 4.0; //true
+    println! ("pi is < 4, {}", pi_less_4);
+    
+    let x = 5;
+    let x_is_5 = x == 5;
+    println! ("x is equal to 5, {}", x_is_5);
 }
