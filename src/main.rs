@@ -24,5 +24,5 @@ fn main()
                    // 01 OR 10 = 11 == 3_10
     println!("1|2 = {}", c);
     let two_to_10 = 1 << 10; // >>
-    println!("2^10 = {}", two_to_10/)
+    println!("2^10 = {}", two_to_10);
 }
